@@ -20,26 +20,18 @@ h1 {
 	margin-bottom: 30px;
 }
 
+.email_signup {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 @font-face {
    font-family: 'HelveticaNeue-Light';
    src: url('fonts/HelveticaNeue-Light.otf');
 }
 
-input[type=text], input[type=button] {
-  width: 40%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=button] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-}
-
-input[type=button]:hover {
-  opacity: 0.8;
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
 }
