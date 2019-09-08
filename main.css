@@ -1,0 +1,45 @@
+body {
+    display: block;
+    margin: 0px;
+  	font-family: 'HelveticaNeue-Light';
+  	height: 100%;
+}
+
+h2 {
+ text-align: center
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.body_container {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@font-face {
+   font-family: 'HelveticaNeue-Light';
+   src: url('fonts/HelveticaNeue-Light.otf');
+}
+
+input[type=text], input[type=button] {
+  width: 40%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=button]:hover {
+  opacity: 0.8;
+}
