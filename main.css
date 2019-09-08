@@ -33,5 +33,8 @@ h1 {
 #mc_embed_signup{
 	background:#fff; 
 	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
+	padding-bottom: 1%;
+}
+#mc_embed_signup div#mce-responses {
+	 padding-top: 0.5em;
 }
